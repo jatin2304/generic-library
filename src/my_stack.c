@@ -9,7 +9,7 @@ Stack * createStack(bool *success)
 Stack *stack;
 SinglyLinkedList *singlyLinkedList;
 singlyLinkedList=createSinglyLinkedList(success);
-if(*success=false) return NULL;
+if(*success==false) return NULL;
 stack=(Stack *)malloc(sizeof(Stack));
 if(stack==NULL)
 {
